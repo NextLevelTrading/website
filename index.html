@@ -8,67 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;400;700;900&display=swap" rel="stylesheet">
-  <style>
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      text-align: center;
-      background: #292a27;
-      color: white;
-      font-family: 'Exo', sans-serif;
-    }
-    body {
-      background-image: url(imgs/chris-liverani-dBI_My696Rk-unsplash.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-color: #292a27;
-      padding-top: 64px;
-      box-sizing: border-box;
-    }
-    img {
-      width: 100%;
-      max-width: 100%;
-      display: block;
-    }
-    .wrap {
-      background: rgba(66,66,66, .6);
-      width: 33.333%;
-      max-width: 450px;
-      margin: 48px auto;
-      background: #292a27eb;
-      border-radius: 5%;
-      padding: 24px 48px;
-      margin-bottom: 84px;
-    }
-    .lead {
-      font-size: 1.5em;
-    }
-    .socials {
-      list-style: none;
-    }
-    .socials li {
-      display: inline-block;
-    }
-    .logo img {
-      border-radius: 5%;
-      width: 150px;
-      display: inline-block;
-    }
-    @media (max-width: 756px) {
-      .wrap {
-        width: 100%;
-        max-width: none;
-        margin: 0;
-        border-radius: 0;
-        box-sizing: border-box;
-      }
-    }
-  </style>
+  <link href="main.css" rel="stylesheet">
 </head>
 <body>
 
+  <div class="background"></div>
   <div class="logo">
     <img src="imgs/logo.svg" alt="">
   </div>
@@ -98,8 +42,35 @@
     </ul>
   </div>
 
+  <div class="widgets">
+    <a target="_blank" class="widget" href="https://donate.next-level.space/">
+      LNbits
+      <span>Die Beschreibung dazu....</span>
+    </a>
+    <a target="_blank" class="widget" href="https://donate.next-level.space/">
+      Donate
+      <span>Die Beschreibung dazu....</span>
+    </a>
+    <a target="_blank" class="widget" href="https://donate.next-level.space/">
+      Donate
+      <span>Die Beschreibung dazu....</span>
+    </a>
+    <a target="_blank" class="widget" href="https://donate.next-level.space/">
+      Donate
+      <span>Die Beschreibung dazu....</span>
+    </a>
+    <a target="_blank" class="widget" href="https://donate.next-level.space/">
+      Donate
+      <span>Die Beschreibung dazu....</span>
+    </a>
+  </div>
+
   <div class="twitter-embed">
-    <a class="twitter-timeline" data-width="700" data-theme="dark" href="https://twitter.com/NL_Germany?ref_src=twsrc%5Etfw">Tweets by Next Level Germany</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-tweet-limit="3" data-width="700" data-theme="dark" href="https://twitter.com/NL_Germany?ref_src=twsrc%5Etfw">Tweets by Next Level Germany</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+  <div class="links">
+    <a href="impressum.html">Impressum</a>
   </div>
 </body>
 </html>
