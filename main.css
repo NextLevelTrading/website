@@ -43,7 +43,7 @@ img {
   width: 500px;
   background: #292a27eb;
   margin: 16px auto;
-  border-radius: 5%;
+  border-radius: 14px;;
   padding: 24px 48px;
   cursor: pointer;
   color: #fff;
@@ -64,7 +64,7 @@ img {
   max-width: 450px;
   margin: 0 auto 84px;
   background: #292a27eb;
-  border-radius: 5%;
+  border-radius: 14px;
   padding: 24px 48px;
 }
 .lead {
@@ -78,7 +78,7 @@ img {
   display: inline-block;
 }
 .logo img {
-  border-radius: 5%;
+  border-radius: 14px;
   width: 150px;
   display: inline-block;
 }
